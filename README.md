@@ -98,5 +98,12 @@ When the answer is state-specific or not in the catalogue, it refuses with a fal
 - `deliverables/pilot_test_report.md`
 - `deliverables/impact_projection.md`
 - `deliverables/architecture_and_safety.md`
+-  `deliverables/JanSahayak_Architechture_and_Safety_Report.pdf`
+-  `deliverables/JanSahayak_Impact_Projection_Report.pdf`
+-  `deliverables/JanSahayak_Project_Report.pdf`
+-  `deliverables/JanSahayak_User_Flow_Report.pdf`
+-  `deliverables/JanSahayak_Pilot_Test_Report.pdf`
+
+
 
 The pilot report is field-ready and includes a labelled synthetic dry run. It does not claim that real village users were tested, because that would require actual fieldwork.
