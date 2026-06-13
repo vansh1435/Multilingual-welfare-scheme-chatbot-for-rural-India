@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "project": "JanSahayak",
+    "description": "Curated 10-scheme catalogue for a low-bandwidth multilingual welfare chatbot. Entries are intentionally narrow and cite official scheme portals for verification.",
+    "last_verified": "2026-06-13",
+    "verification_note": "Eligibility rules change by state and year. The chatbot provides a grounded shortlist and asks users to confirm final eligibility at the local office, CSC, bank, Anganwadi, Panchayat, or official portal."
+  },
+  "schemes": [
+    {
+      "id": "pm_kisan",
+      "name": {
+        "en": "PM-KISAN Samman Nidhi",
+        "hi": "पीएम-किसान सम्मान निधि",
+        "ta": "பிஎம்-கிசான் சம்மான் நிதி"
+      },
+      "category": "farmer_income_support",
+      "benefit": {
+        "en": "Income support of Rs 6,000 per year in three instalments for eligible land-holding farmer families.",
+        "hi": "योग्य भूमि-धारक किसान परिवारों को तीन किस्तों में सालाना 6,000 रुपये की सहायता।",
+        "ta": "தகுதியான நிலம் வைத்துள்ள விவசாயக் குடும்பங்களுக்கு ஆண்டுக்கு ரூ.6,000 மூன்று தவணைகளில்."
+      },
+      "plain_summary": {
+        "en": "For small and marginal farmer families that own cultivable land and are not in an exclusion category.",
+        "hi": "ऐसे किसान परिवारों के लिए जिनके पास खेती की जमीन है और जो अपात्र श्रेणी में नहीं आते।",
+        "ta": "விவசாய நிலம் உள்ள, விலக்கு பிரிவில் இல்லாத விவசாயக் குடும்பங்களுக்கு."
+      },
+      "documents": {
+        "en": ["Aadhaar number/card", "Bank account and IFSC", "Land ownership/record details", "Mobile number", "eKYC through PM-KISAN portal or CSC"],
+        "hi": ["आधार नंबर/कार्ड", "बैंक खाता और IFSC", "जमीन का रिकॉर्ड/खतौनी", "मोबाइल नंबर", "PM-KISAN पोर्टल या CSC से eKYC"],
+        "ta": ["ஆதார் எண்/அட்டை", "வங்கி கணக்கு மற்றும் IFSC", "நில உரிமை/பட்டா விவரம்", "மொபைல் எண்", "PM-KISAN தளம் அல்லது CSC மூலம் eKYC"]
+      },
+      "apply_steps": {
+        "en": ["Register at PM-KISAN Farmer Corner or nearest CSC", "Complete Aadhaar eKYC", "Submit bank and land record details", "Track status on PM-KISAN portal"],
+        "hi": ["PM-KISAN Farmer Corner या नजदीकी CSC पर पंजीकरण करें", "आधार eKYC पूरा करें", "बैंक और जमीन की जानकारी दें", "PM-KISAN पोर्टल पर स्थिति देखें"],
+        "ta": ["PM-KISAN Farmer Corner அல்லது அருகிலுள்ள CSC-ல் பதிவு செய்யவும்", "ஆதார் eKYC முடிக்கவும்", "வங்கி மற்றும் நில விவரங்களை சமர்ப்பிக்கவும்", "PM-KISAN தளத்தில் நிலையை பார்க்கவும்"]
+      },
+      "source": {
+        "title": "PM-KISAN official portal",
+        "url": "https://pmkisan.gov.in/"
+      },
+      "tags": ["farmer", "land", "income", "rural", "agriculture"],
+      "sms_hint": {
+        "en": "PM-KISAN: Aadhaar, bank, land record, eKYC. Apply PM-KISAN portal/CSC.",
+        "hi": "PM-KISAN: आधार, बैंक, जमीन रिकॉर्ड, eKYC. आवेदन पोर्टल/CSC पर।",
+        "ta": "PM-KISAN: ஆதார், வங்கி, நில பதிவு, eKYC. தளம்/CSC-ல் விண்ணப்பம்."
+      }
+    },
+    {
+      "id": "pmjay",
+      "name": {
+        "en": "Ayushman Bharat PM-JAY",
+        "hi": "आयुष्मान भारत PM-JAY",
+        "ta": "ஆயுஷ்மான் பாரத் PM-JAY"
+      },
+      "category": "health_insurance",
+      "benefit": {
+        "en": "Cashless hospital treatment cover up to Rs 5 lakh per eligible family per year at empanelled hospitals.",
+        "hi": "सूचीबद्ध अस्पतालों में योग्य परिवार को प्रति वर्ष 5 लाख रुपये तक कैशलेस इलाज।",
+        "ta": "தகுதியான குடும்பத்திற்கு ஆண்டுக்கு ரூ.5 லட்சம் வரை பணமில்லா மருத்துவமனை சிகிச்சை."
+      },
+      "plain_summary": {
+        "en": "For vulnerable households identified by official beneficiary lists; senior citizen expansion and state rules may apply.",
+        "hi": "सरकारी लाभार्थी सूची में पहचाने गए कमजोर परिवारों के लिए; 70+ वरिष्ठ नागरिक और राज्य नियम लागू हो सकते हैं।",
+        "ta": "அரசின் பயனாளர் பட்டியலில் உள்ள பாதிப்பு அதிக குடும்பங்களுக்கு; 70+ மூத்த குடிமக்கள் மற்றும் மாநில விதிகள் பொருந்தலாம்."
+      },
+      "documents": {
+        "en": ["Aadhaar or accepted identity proof", "Ration card/family ID if available", "Mobile number", "Existing Ayushman card or beneficiary ID if available"],
+        "hi": ["आधार या मान्य पहचान पत्र", "राशन कार्ड/परिवार ID यदि उपलब्ध हो", "मोबाइल नंबर", "आयुष्मान कार्ड या लाभार्थी ID यदि हो"],
+        "ta": ["ஆதார் அல்லது செல்லுபடியாகும் அடையாள ஆவணம்", "ரேஷன் கார்டு/குடும்ப ID இருந்தால்", "மொபைல் எண்", "ஆயுஷ்மான் அட்டை அல்லது பயனாளர் ID இருந்தால்"]
+      },
+      "apply_steps": {
+        "en": ["Check eligibility on PM-JAY portal/app, CSC, or empanelled hospital helpdesk", "If listed, complete Aadhaar/family verification", "Download or print Ayushman card", "Use card at empanelled hospital"],
+        "hi": ["PM-JAY पोर्टल/ऐप, CSC या अस्पताल हेल्पडेस्क पर पात्रता जांचें", "नाम हो तो आधार/परिवार सत्यापन करें", "आयुष्मान कार्ड डाउनलोड/प्रिंट करें", "सूचीबद्ध अस्पताल में कार्ड उपयोग करें"],
+        "ta": ["PM-JAY தளம்/ஆப், CSC அல்லது மருத்துவமனை உதவி மேசையில் தகுதி பார்க்கவும்", "பெயர் இருந்தால் ஆதார்/குடும்ப சரிபார்ப்பு செய்யவும்", "ஆயுஷ்மான் அட்டை பதிவிறக்கம்/அச்சிடவும்", "பட்டியலிட்ட மருத்துவமனையில் பயன்படுத்தவும்"]
+      },
+      "source": {
+        "title": "PM-JAY official portal",
+        "url": "https://pmjay.gov.in/"
+      },
+      "tags": ["health", "hospital", "insurance", "poor", "senior"],
+      "sms_hint": {
+        "en": "PM-JAY: check name at CSC/PM-JAY app; keep Aadhaar, ration/family ID, mobile.",
+        "hi": "PM-JAY: CSC/ऐप पर नाम जांचें; आधार, राशन/परिवार ID, मोबाइल रखें।",
+        "ta": "PM-JAY: CSC/ஆப்-ல் பெயர் பார்க்கவும்; ஆதார், ரேஷன்/குடும்ப ID, மொபைல் வைத்திருங்கள்."
+      }
+    },
+    {
+      "id": "pmay_g",
+      "name": {
+        "en": "Pradhan Mantri Awaas Yojana - Gramin",
+        "hi": "प्रधानमंत्री आवास योजना - ग्रामीण",
+        "ta": "பிரதான் மந்திரி ஆவாஸ் யோஜனா - கிராமின்"
+      },
+      "category": "rural_housing",
+      "benefit": {
+        "en": "Financial assistance for eligible rural households to construct a pucca house, subject to Gram Sabha and official list verification.",
+        "hi": "योग्य ग्रामीण परिवारों को पक्का घर बनाने के लिए आर्थिक सहायता, ग्राम सभा और सरकारी सूची सत्यापन के बाद।",
+        "ta": "தகுதியான கிராமப்புற குடும்பங்களுக்கு பக்கா வீடு கட்ட நிதியுதவி, கிராம சபை மற்றும் அரசு பட்டியல் சரிபார்ப்புக்கு உட்பட்டு."
+      },
+      "plain_summary": {
+        "en": "For rural households that are homeless or live in kutcha/severely inadequate houses and pass exclusion checks.",
+        "hi": "बेघर या कच्चे/बहुत कमजोर घर में रहने वाले ग्रामीण परिवारों के लिए, अपात्रता जांच के बाद।",
+        "ta": "வீடு இல்லாத அல்லது குடிசை/மிகவும் பலவீனமான வீட்டில் வாழும் கிராமப்புற குடும்பங்களுக்கு, விலக்கு சோதனைக்கு பின்."
+      },
+      "documents": {
+        "en": ["Aadhaar of applicant/family", "Bank account linked for DBT", "Ration card/family details", "Job card or income/labour details if asked", "Local Gram Sabha verification and site details"],
+        "hi": ["आवेदक/परिवार का आधार", "DBT के लिए बैंक खाता", "राशन कार्ड/परिवार विवरण", "मांगा जाए तो जॉब कार्ड या आय/श्रम विवरण", "ग्राम सभा सत्यापन और जगह का विवरण"],
+        "ta": ["விண்ணப்பதாரர்/குடும்ப ஆதார்", "DBT-க்கு வங்கி கணக்கு", "ரேஷன் கார்டு/குடும்ப விவரம்", "தேவைப்பட்டால் வேலை அட்டை அல்லது வருமான/தொழில் விவரம்", "கிராம சபை சரிபார்ப்பு மற்றும் இட விவரம்"]
+      },
+      "apply_steps": {
+        "en": ["Check if household appears in Awaas/PMAY-G list at Panchayat or portal", "Ask Gram Panchayat/Block office for Awaas+ survey or correction", "Submit documents for verification", "Track sanction and instalments through PMAY-G portal"],
+        "hi": ["पंचायत या पोर्टल पर Awaas/PMAY-G सूची में नाम देखें", "Awaas+ सर्वे या सुधार के लिए ग्राम पंचायत/ब्लॉक से मिलें", "सत्यापन के लिए कागज जमा करें", "PMAY-G पोर्टल पर स्वीकृति और किस्त देखें"],
+        "ta": ["பஞ்சாயத்து அல்லது தளத்தில் Awaas/PMAY-G பட்டியலில் பெயர் பார்க்கவும்", "Awaas+ சர்வே/திருத்தத்திற்கு கிராம பஞ்சாயத்து/பிளாக் அலுவலகம் அணுகவும்", "சரிபார்ப்புக்கு ஆவணங்கள் கொடுக்கவும்", "PMAY-G தளத்தில் அனுமதி மற்றும் தவணைகள் பார்க்கவும்"]
+      },
+      "source": {
+        "title": "PMAY-G official portal",
+        "url": "https://pmayg.nic.in/netiayHome/home.aspx"
+      },
+      "tags": ["housing", "kutcha", "rural", "homeless", "panchayat"],
+      "sms_hint": {
+        "en": "PMAY-G: for rural kutcha/no house. Check list at Panchayat; keep Aadhaar, bank, ration, site details.",
+        "hi": "PMAY-G: गांव में कच्चा/बिना घर. पंचायत में सूची देखें; आधार, बैंक, राशन रखें।",
+        "ta": "PMAY-G: கிராம குடிசை/வீடு இல்லை. பஞ்சாயத்தில் பட்டியல் பாருங்கள்; ஆதார், வங்கி, ரேஷன்."
+      }
+    },
+    {
+      "id": "pmuy",
+      "name": {
+        "en": "Pradhan Mantri Ujjwala Yojana 2.0",
+        "hi": "प्रधानमंत्री उज्ज्वला योजना 2.0",
+        "ta": "பிரதான் மந்திரி உஜ்வலா யோஜனா 2.0"
+      },
+      "category": "clean_cooking",
+      "benefit": {
+        "en": "Deposit-free LPG connection for an adult woman from a poor household with no LPG connection, plus specified first refill/stove support.",
+        "hi": "गरीब परिवार की वयस्क महिला को, घर में LPG कनेक्शन न होने पर, जमा-राशि मुक्त LPG कनेक्शन और निर्धारित पहली रिफिल/चूल्हा सहायता।",
+        "ta": "LPG இணைப்பு இல்லாத ஏழை குடும்பத்தின் 18+ பெண்ணுக்கு டெபாசிட் இல்லா LPG இணைப்பு மற்றும் நிர்ணயிக்கப்பட்ட முதல் ரீஃபில்/அடுப்பு உதவி."
+      },
+      "plain_summary": {
+        "en": "For an adult woman in a poor household where no other LPG connection exists.",
+        "hi": "गरीब परिवार की 18+ महिला के लिए, जहां घर में कोई LPG कनेक्शन नहीं है।",
+        "ta": "வீட்டில் LPG இணைப்பு இல்லாத ஏழை குடும்பத்தின் 18+ பெண்ணுக்கு."
+      },
+      "documents": {
+        "en": ["KYC form", "Aadhaar of applicant", "Address proof if current address differs from Aadhaar", "Ration card or family composition proof", "Aadhaar of adult family members", "Bank account passbook/cancelled cheque", "Deprivation declaration"],
+        "hi": ["KYC फॉर्म", "आवेदिका का आधार", "आधार से अलग पता हो तो पता प्रमाण", "राशन कार्ड या परिवार संरचना प्रमाण", "वयस्क परिवार सदस्यों का आधार", "बैंक पासबुक/कैंसल चेक", "वंचना घोषणा"],
+        "ta": ["KYC படிவம்", "விண்ணப்பிக்கும் பெண்ணின் ஆதார்", "ஆதாரில் உள்ள முகவரி வேறானால் முகவரி சான்று", "ரேஷன் கார்டு அல்லது குடும்ப அமைப்பு சான்று", "வயது வந்த குடும்ப உறுப்பினர்களின் ஆதார்", "வங்கி பாஸ்புக்/ரத்து செய்யப்பட்ட காசோலை", "வறுமை/வஞ்சனை அறிவிப்பு"]
+      },
+      "apply_steps": {
+        "en": ["Collect KYC and declaration form online or from LPG distributor", "Submit to nearest Indane/Bharatgas/HP Gas distributor", "Complete Aadhaar and bank verification", "Receive connection after distributor approval"],
+        "hi": ["KYC और घोषणा फॉर्म ऑनलाइन या LPG वितरक से लें", "नजदीकी Indane/Bharatgas/HP Gas वितरक को दें", "आधार और बैंक सत्यापन करें", "वितरक स्वीकृति के बाद कनेक्शन लें"],
+        "ta": ["KYC மற்றும் அறிவிப்பு படிவத்தை ஆன்லைன்/விநியோகஸ்தரிடம் பெறவும்", "அருகிலுள்ள Indane/Bharatgas/HP Gas விநியோகஸ்தரிடம் சமர்ப்பிக்கவும்", "ஆதார் மற்றும் வங்கி சரிபார்ப்பு செய்யவும்", "விநியோகஸ்தர் ஒப்புதல் பிறகு இணைப்பு பெறவும்"]
+      },
+      "source": {
+        "title": "PMUY official portal",
+        "url": "https://pmuy.gov.in/"
+      },
+      "tags": ["lpg", "gas", "woman", "poor", "clean cooking"],
+      "sms_hint": {
+        "en": "PMUY: adult woman, poor household, no LPG. Docs: KYC, Aadhaar, ration/family proof, bank, declaration.",
+        "hi": "PMUY: 18+ महिला, गरीब घर, LPG नहीं. कागज: KYC, आधार, राशन/परिवार, बैंक, घोषणा।",
+        "ta": "PMUY: 18+ பெண், ஏழை வீடு, LPG இல்லை. ஆவணங்கள்: KYC, ஆதார், ரேஷன்/குடும்பம், வங்கி."
+      }
+    },
+    {
+      "id": "mgnrega",
+      "name": {
+        "en": "MGNREGA Job Card",
+        "hi": "मनरेगा जॉब कार्ड",
+        "ta": "MGNREGA வேலை அட்டை"
+      },
+      "category": "rural_employment",
+      "benefit": {
+        "en": "Legal entitlement to demand up to 100 days of unskilled wage employment per rural household per financial year.",
+        "hi": "ग्रामीण परिवार को वित्त वर्ष में 100 दिन तक अकुशल मजदूरी काम मांगने का कानूनी अधिकार।",
+        "ta": "ஒவ்வொரு கிராமப்புற குடும்பத்திற்கும் ஆண்டுக்கு 100 நாட்கள் வரை திறனற்ற கூலி வேலை கோரும் உரிமை."
+      },
+      "plain_summary": {
+        "en": "For rural households with adult members willing to do unskilled manual work.",
+        "hi": "ऐसे ग्रामीण परिवारों के लिए जिनके वयस्क सदस्य अकुशल मजदूरी काम करना चाहते हैं।",
+        "ta": "திறனற்ற கைவேலை செய்ய விரும்பும் வயது வந்த உறுப்பினர்கள் உள்ள கிராமப்புற குடும்பங்களுக்கு."
+      },
+      "documents": {
+        "en": ["Job card application at Gram Panchayat", "Aadhaar if available", "Ration card/family details", "Photographs of adult members", "Bank/post office account for wage payment"],
+        "hi": ["ग्राम पंचायत में जॉब कार्ड आवेदन", "आधार यदि उपलब्ध हो", "राशन कार्ड/परिवार विवरण", "वयस्क सदस्यों की फोटो", "मजदूरी भुगतान के लिए बैंक/डाकघर खाता"],
+        "ta": ["கிராம பஞ்சாயத்தில் வேலை அட்டை விண்ணப்பம்", "ஆதார் இருந்தால்", "ரேஷன் கார்டு/குடும்ப விவரம்", "வயது வந்த உறுப்பினர்களின் புகைப்படம்", "கூலி பெற வங்கி/அஞ்சல் கணக்கு"]
+      },
+      "apply_steps": {
+        "en": ["Apply for job card at Gram Panchayat", "After job card, submit written/oral demand for work", "Keep dated receipt", "If work is not given in time, ask Panchayat/Block office about unemployment allowance rules"],
+        "hi": ["ग्राम पंचायत में जॉब कार्ड के लिए आवेदन करें", "जॉब कार्ड के बाद काम की लिखित/मौखिक मांग दें", "दिनांक वाली रसीद रखें", "समय पर काम न मिले तो पंचायत/ब्लॉक में बेरोजगारी भत्ता नियम पूछें"],
+        "ta": ["கிராம பஞ்சாயத்தில் வேலை அட்டைக்கு விண்ணப்பிக்கவும்", "அட்டை கிடைத்தபின் வேலை கோரிக்கை கொடுக்கவும்", "தேதியுள்ள ரசீது வைத்திருக்கவும்", "வேலை காலத்தில் கிடைக்காவிட்டால் பஞ்சாயத்து/பிளாக் அலுவலகத்தில் விதிகள் கேட்கவும்"]
+      },
+      "source": {
+        "title": "MGNREGA official portal",
+        "url": "https://nrega.nic.in/"
+      },
+      "tags": ["rural", "work", "job card", "labour", "wages"],
+      "sms_hint": {
+        "en": "MGNREGA: rural adults can request job card/work at Panchayat. Keep Aadhaar, ration/family, photos, bank.",
+        "hi": "मनरेगा: गांव के वयस्क पंचायत में जॉब कार्ड/काम मांगें. आधार, राशन, फोटो, बैंक रखें।",
+        "ta": "MGNREGA: கிராம வயது வந்தோர் பஞ்சாயத்தில் வேலை அட்டை/வேலை கேட்கலாம். ஆதார், ரேஷன், புகைப்படம், வங்கி."
+      }
+    },
+    {
+      "id": "ssy",
+      "name": {
+        "en": "Sukanya Samriddhi Account",
+        "hi": "सुकन्या समृद्धि खाता",
+        "ta": "சுகன்யா சம்ரித்தி கணக்கு"
+      },
+      "category": "girl_child_savings",
+      "benefit": {
+        "en": "Small savings account for a girl child, opened by parent/guardian before she turns 10, with government-notified interest and tax benefits.",
+        "hi": "10 साल से कम बेटी के लिए माता-पिता/अभिभावक द्वारा खुलने वाला बचत खाता, सरकारी ब्याज और कर लाभ के साथ।",
+        "ta": "10 வயதுக்கு குறைவான பெண் குழந்தைக்கு பெற்றோர்/பாதுகாவலர் திறக்கும் சிறு சேமிப்பு கணக்கு, அரசு வட்டி மற்றும் வரி நன்மைகளுடன்."
+      },
+      "plain_summary": {
+        "en": "For families with a girl child below 10 years who can save small amounts for education or future needs.",
+        "hi": "10 साल से कम बेटी वाले परिवारों के लिए, जो शिक्षा या भविष्य के लिए छोटी बचत कर सकते हैं।",
+        "ta": "10 வயதுக்கு குறைவான பெண் குழந்தை உள்ள குடும்பங்கள் கல்வி/எதிர்காலத்திற்காக சேமிக்க."
+      },
+      "documents": {
+        "en": ["Girl child's birth certificate", "Parent/guardian identity and address proof", "Aadhaar/PAN as required by bank/post office", "Initial deposit"],
+        "hi": ["बेटी का जन्म प्रमाण पत्र", "माता-पिता/अभिभावक का पहचान और पता प्रमाण", "बैंक/डाकघर के अनुसार आधार/PAN", "प्रारंभिक जमा राशि"],
+        "ta": ["பெண் குழந்தையின் பிறப்பு சான்று", "பெற்றோர்/பாதுகாவலர் அடையாள மற்றும் முகவரி சான்று", "வங்கி/அஞ்சலகம் கேட்கும் ஆதார்/PAN", "ஆரம்ப வைப்பு"]
+      },
+      "apply_steps": {
+        "en": ["Visit post office or authorised bank", "Fill Sukanya Samriddhi Account form", "Submit birth certificate and KYC documents", "Make initial deposit and keep passbook"],
+        "hi": ["डाकघर या अधिकृत बैंक जाएं", "सुकन्या समृद्धि फॉर्म भरें", "जन्म प्रमाण पत्र और KYC कागज दें", "प्रारंभिक जमा कर पासबुक रखें"],
+        "ta": ["அஞ்சலகம் அல்லது அங்கீகரிக்கப்பட்ட வங்கி செல்லவும்", "சுகன்யா சம்ரித்தி படிவம் நிரப்பவும்", "பிறப்பு சான்று மற்றும் KYC ஆவணங்கள் கொடுக்கவும்", "ஆரம்ப வைப்பு செய்து பாஸ்புக் பெறவும்"]
+      },
+      "source": {
+        "title": "India Post savings schemes",
+        "url": "https://www.indiapost.gov.in/"
+      },
+      "tags": ["girl child", "savings", "education", "post office", "bank"],
+      "sms_hint": {
+        "en": "SSY: girl below 10. Open at post office/bank with birth certificate, parent KYC, initial deposit.",
+        "hi": "SSY: 10 साल से कम बेटी. जन्म प्रमाण, अभिभावक KYC, जमा राशि से डाकघर/बैंक में खाता।",
+        "ta": "SSY: 10 வயதுக்குக் குறைவான பெண் குழந்தை. பிறப்பு சான்று, பெற்றோர் KYC, வைப்பு."
+      }
+    },
+    {
+      "id": "pmmvy",
+      "name": {
+        "en": "Pradhan Mantri Matru Vandana Yojana",
+        "hi": "प्रधानमंत्री मातृ वंदना योजना",
+        "ta": "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா"
+      },
+      "category": "maternity_support",
+      "benefit": {
+        "en": "Maternity benefit support for eligible pregnant and lactating women, subject to current PMMVY rules and health registration milestones.",
+        "hi": "योग्य गर्भवती और स्तनपान कराने वाली महिलाओं के लिए मातृत्व सहायता, PMMVY नियम और स्वास्थ्य पंजीकरण शर्तों के अनुसार।",
+        "ta": "தகுதியான கர்ப்பிணி மற்றும் பாலூட்டும் பெண்களுக்கு PMMVY விதிகள் மற்றும் சுகாதார பதிவு நிபந்தனைகளின் படி உதவி."
+      },
+      "plain_summary": {
+        "en": "For eligible pregnant/lactating women who register pregnancy and child health details through Anganwadi/health system.",
+        "hi": "ऐसी योग्य गर्भवती/स्तनपान कराने वाली महिलाओं के लिए जो आंगनवाड़ी/स्वास्थ्य प्रणाली में पंजीकरण कराती हैं।",
+        "ta": "ஆங்கன்வாடி/சுகாதார அமைப்பில் கர்ப்பம் மற்றும் குழந்தை விவரங்கள் பதிவு செய்யும் தகுதியான பெண்களுக்கு."
+      },
+      "documents": {
+        "en": ["Aadhaar of beneficiary", "Bank/post office account", "MCP/mother-child protection card or pregnancy record", "Mobile number", "Child birth certificate/immunisation details when asked"],
+        "hi": ["लाभार्थी का आधार", "बैंक/डाकघर खाता", "MCP कार्ड या गर्भावस्था रिकॉर्ड", "मोबाइल नंबर", "मांगा जाए तो जन्म प्रमाण/टीकाकरण विवरण"],
+        "ta": ["பயனாளியின் ஆதார்", "வங்கி/அஞ்சலக கணக்கு", "MCP அட்டை அல்லது கர்ப்ப பதிவு", "மொபைல் எண்", "தேவைப்பட்டால் பிறப்பு சான்று/தடுப்பூசி விவரம்"]
+      },
+      "apply_steps": {
+        "en": ["Contact Anganwadi worker/ASHA or PMMVY portal", "Register pregnancy and beneficiary details", "Submit Aadhaar, bank and health records", "Track application status on PMMVY portal"],
+        "hi": ["आंगनवाड़ी कार्यकर्ता/ASHA या PMMVY पोर्टल से संपर्क करें", "गर्भावस्था और लाभार्थी विवरण दर्ज करें", "आधार, बैंक और स्वास्थ्य रिकॉर्ड दें", "PMMVY पोर्टल पर स्थिति देखें"],
+        "ta": ["ஆங்கன்வாடி பணியாளர்/ASHA அல்லது PMMVY தளம் அணுகவும்", "கர்ப்பம் மற்றும் பயனாளர் விவரம் பதிவு செய்யவும்", "ஆதார், வங்கி, சுகாதார பதிவுகள் கொடுக்கவும்", "PMMVY தளத்தில் நிலை பார்க்கவும்"]
+      },
+      "source": {
+        "title": "PMMVY official portal",
+        "url": "https://pmmvy.wcd.gov.in/"
+      },
+      "tags": ["pregnant", "mother", "maternity", "anganwadi", "health"],
+      "sms_hint": {
+        "en": "PMMVY: pregnant/lactating eligible women. Contact Anganwadi/ASHA; keep Aadhaar, bank, MCP card.",
+        "hi": "PMMVY: गर्भवती/स्तनपान योग्य महिला. आंगनवाड़ी/ASHA से मिलें; आधार, बैंक, MCP कार्ड रखें।",
+        "ta": "PMMVY: கர்ப்பிணி/பாலூட்டும் தகுதியான பெண். ஆங்கன்வாடி/ASHA; ஆதார், வங்கி, MCP அட்டை."
+      }
+    },
+    {
+      "id": "eshram",
+      "name": {
+        "en": "e-Shram Card",
+        "hi": "ई-श्रम कार्ड",
+        "ta": "இ-ஷ்ரம் அட்டை"
+      },
+      "category": "unorganised_worker_registry",
+      "benefit": {
+        "en": "National registration for unorganised, gig, platform, migrant, domestic and similar workers to access linked welfare and social security services.",
+        "hi": "असंगठित, गिग, प्लेटफॉर्म, प्रवासी, घरेलू आदि कामगारों के लिए राष्ट्रीय पंजीकरण, जिससे संबंधित कल्याण सेवाओं तक पहुंच मिलती है।",
+        "ta": "ஒழுங்கற்ற, கிக், பிளாட்ஃபார்ம், இடம்பெயரும், வீட்டு வேலை போன்ற தொழிலாளர்களுக்கான தேசிய பதிவு."
+      },
+      "plain_summary": {
+        "en": "For unorganised workers such as labourers, drivers, delivery workers, domestic workers, vendors and construction workers.",
+        "hi": "मजदूर, ड्राइवर, डिलीवरी, घरेलू कामगार, रेहड़ी/ठेला और निर्माण कामगार जैसे असंगठित कामगारों के लिए।",
+        "ta": "கூலி, டிரைவர், டெலிவரி, வீட்டு வேலை, தெருவோர விற்பனையாளர், கட்டுமான தொழிலாளர் போன்றவர்களுக்கு."
+      },
+      "documents": {
+        "en": ["Aadhaar linked mobile for OTP or CSC biometric help", "Bank account", "Occupation details", "Nominee details", "Mobile number"],
+        "hi": ["OTP के लिए आधार-लिंक मोबाइल या CSC बायोमेट्रिक सहायता", "बैंक खाता", "काम/पेशा विवरण", "नामांकित व्यक्ति विवरण", "मोबाइल नंबर"],
+        "ta": ["OTP-க்கு ஆதார் இணைந்த மொபைல் அல்லது CSC பயோமெட்ரிக் உதவி", "வங்கி கணக்கு", "தொழில் விவரம்", "நாமினி விவரம்", "மொபைல் எண்"]
+      },
+      "apply_steps": {
+        "en": ["Register at e-Shram portal, UMANG, or nearest CSC", "Verify Aadhaar OTP/biometric", "Enter occupation, bank and nominee details", "Download e-Shram card"],
+        "hi": ["e-Shram पोर्टल, UMANG या नजदीकी CSC पर पंजीकरण करें", "आधार OTP/बायोमेट्रिक सत्यापन करें", "काम, बैंक और नामांकित विवरण भरें", "ई-श्रम कार्ड डाउनलोड करें"],
+        "ta": ["e-Shram தளம், UMANG அல்லது அருகிலுள்ள CSC-ல் பதிவு செய்யவும்", "ஆதார் OTP/பயோமெட்ரிக் சரிபார்க்கவும்", "தொழில், வங்கி, நாமினி விவரம் நிரப்பவும்", "e-Shram அட்டை பதிவிறக்கவும்"]
+      },
+      "source": {
+        "title": "e-Shram official portal",
+        "url": "https://eshram.gov.in/"
+      },
+      "tags": ["gig", "unorganised", "worker", "labour", "platform", "domestic", "migrant"],
+      "sms_hint": {
+        "en": "e-Shram: unorganised/gig workers. Register portal/CSC with Aadhaar OTP/biometric, bank, occupation.",
+        "hi": "e-Shram: असंगठित/गिग कामगार. आधार OTP/बायोमेट्रिक, बैंक, पेशा से पोर्टल/CSC पर रजिस्टर।",
+        "ta": "e-Shram: ஒழுங்கற்ற/கிக் தொழிலாளர். ஆதார் OTP/பயோமெட்ரிக், வங்கி, தொழில் விவரத்துடன் பதிவு."
+      }
+    },
+    {
+      "id": "apy",
+      "name": {
+        "en": "Atal Pension Yojana",
+        "hi": "अटल पेंशन योजना",
+        "ta": "அடல் பென்ஷன் யோஜனா"
+      },
+      "category": "pension_contributory",
+      "benefit": {
+        "en": "Contributory pension for eligible citizens aged 18-40, with pension after age 60 based on contribution level.",
+        "hi": "18-40 वर्ष के योग्य नागरिकों के लिए अंशदान आधारित पेंशन; 60 वर्ष के बाद अंशदान स्तर के अनुसार पेंशन।",
+        "ta": "18-40 வயது தகுதியான குடிமக்களுக்கு பங்களிப்பு அடிப்படையிலான ஓய்வூதியம்; 60 வயதுக்குப் பின் தொகை பங்களிப்பை பொறுத்தது."
+      },
+      "plain_summary": {
+        "en": "Good for young unorganised workers who have a savings bank account and can make monthly contributions.",
+        "hi": "बचत बैंक खाता रखने वाले युवा असंगठित कामगारों के लिए, जो मासिक अंशदान कर सकते हैं।",
+        "ta": "சேமிப்பு வங்கி கணக்கு உள்ள, மாதாந்திர பங்களிப்பு செய்யக்கூடிய இளம் ஒழுங்கற்ற தொழிலாளர்களுக்கு."
+      },
+      "documents": {
+        "en": ["Savings bank/post office account", "Aadhaar/KYC", "Mobile number", "Nominee/spouse details"],
+        "hi": ["बचत बैंक/डाकघर खाता", "आधार/KYC", "मोबाइल नंबर", "नामांकित/पति-पत्नी विवरण"],
+        "ta": ["சேமிப்பு வங்கி/அஞ்சலக கணக்கு", "ஆதார்/KYC", "மொபைல் எண்", "நாமினி/துணைவர் விவரம்"]
+      },
+      "apply_steps": {
+        "en": ["Visit bank/post office or use enabled banking channel", "Choose pension slab and contribution frequency", "Submit APY form and KYC", "Ensure account has balance for auto-debit"],
+        "hi": ["बैंक/डाकघर जाएं या उपलब्ध बैंकिंग चैनल उपयोग करें", "पेंशन स्लैब और अंशदान आवृत्ति चुनें", "APY फॉर्म और KYC दें", "ऑटो-डेबिट के लिए खाते में राशि रखें"],
+        "ta": ["வங்கி/அஞ்சலகம் அல்லது கிடைக்கும் வங்கி சேவை பயன்படுத்தவும்", "பென்ஷன் நிலை மற்றும் பங்களிப்பு அடிக்கடி தேர்வு செய்யவும்", "APY படிவம் மற்றும் KYC கொடுக்கவும்", "ஆட்டோ-டெபிட்-க்கு கணக்கில் பணம் வைத்திருக்கவும்"]
+      },
+      "source": {
+        "title": "Jan Suraksha official portal",
+        "url": "https://jansuraksha.gov.in/"
+      },
+      "tags": ["pension", "unorganised", "bank", "age 18 40", "monthly contribution"],
+      "sms_hint": {
+        "en": "APY: age 18-40 with bank account. Apply at bank/post office with Aadhaar/KYC, mobile, nominee.",
+        "hi": "APY: 18-40 उम्र और बैंक खाता. आधार/KYC, मोबाइल, नामांकित से बैंक/डाकघर में आवेदन।",
+        "ta": "APY: 18-40 வயது, வங்கி கணக்கு. ஆதார்/KYC, மொபைல், நாமினியுடன் விண்ணப்பம்."
+      }
+    },
+    {
+      "id": "nsap",
+      "name": {
+        "en": "NSAP Social Pension",
+        "hi": "NSAP सामाजिक पेंशन",
+        "ta": "NSAP சமூக ஓய்வூதியம்"
+      },
+      "category": "social_pension",
+      "benefit": {
+        "en": "Central social assistance for eligible BPL elderly persons, widows, persons with severe disability, and bereaved BPL families under NSAP components.",
+        "hi": "NSAP के तहत योग्य BPL बुजुर्ग, विधवा, गंभीर दिव्यांग और मुख्य कमाने वाले की मृत्यु वाले BPL परिवारों को सामाजिक सहायता।",
+        "ta": "NSAP கூறுகளின் கீழ் தகுதியான BPL முதியோர், விதவைகள், கடுமையான மாற்றுத்திறனாளிகள் மற்றும் வருவாய் ஈட்டியவர் இறந்த BPL குடும்பங்களுக்கு உதவி."
+      },
+      "plain_summary": {
+        "en": "For poor elderly, widows and persons with severe disability; state pension top-ups and age rules vary.",
+        "hi": "गरीब बुजुर्ग, विधवा और गंभीर दिव्यांग व्यक्तियों के लिए; राज्य की अतिरिक्त राशि और उम्र नियम अलग हो सकते हैं।",
+        "ta": "ஏழை முதியோர், விதவைகள், கடுமையான மாற்றுத்திறனாளிகள்; மாநில கூடுதல் தொகை மற்றும் வயது விதிகள் மாறலாம்."
+      },
+      "documents": {
+        "en": ["Age proof", "BPL/ration/income proof as required by state", "Aadhaar", "Bank/post office account", "Widow/disability/death certificate if relevant", "Passport-size photograph"],
+        "hi": ["उम्र प्रमाण", "राज्य नियम अनुसार BPL/राशन/आय प्रमाण", "आधार", "बैंक/डाकघर खाता", "लागू हो तो विधवा/दिव्यांग/मृत्यु प्रमाण", "पासपोर्ट फोटो"],
+        "ta": ["வயது சான்று", "மாநில விதிக்கு ஏற்ப BPL/ரேஷன்/வருமான சான்று", "ஆதார்", "வங்கி/அஞ்சலக கணக்கு", "தேவைப்பட்டால் விதவை/மாற்றுத்திறன்/இறப்பு சான்று", "பாஸ்போர்ட் புகைப்படம்"]
+      },
+      "apply_steps": {
+        "en": ["Ask Gram Panchayat/Block office or state social welfare portal for the correct NSAP/state pension form", "Submit proof and bank details", "Track registration and pension payment status on NSAP/state portal", "Update Aadhaar/bank details if payment fails"],
+        "hi": ["सही NSAP/राज्य पेंशन फॉर्म के लिए ग्राम पंचायत/ब्लॉक या राज्य पोर्टल से पूछें", "प्रमाण और बैंक विवरण जमा करें", "NSAP/राज्य पोर्टल पर पंजीकरण और भुगतान स्थिति देखें", "भुगतान रुके तो आधार/बैंक विवरण अपडेट करें"],
+        "ta": ["சரியான NSAP/மாநில பென்ஷன் படிவத்துக்கு கிராம பஞ்சாயத்து/பிளாக் அல்லது மாநில தளம் அணுகவும்", "சான்றுகள் மற்றும் வங்கி விவரம் கொடுக்கவும்", "NSAP/மாநில தளத்தில் பதிவு மற்றும் பணம் நிலை பார்க்கவும்", "பணம் வராவிட்டால் ஆதார்/வங்கி விவரம் புதுப்பிக்கவும்"]
+      },
+      "source": {
+        "title": "NSAP official portal",
+        "url": "https://nsap.nic.in/"
+      },
+      "tags": ["old age", "widow", "disability", "pension", "bpl"],
+      "sms_hint": {
+        "en": "NSAP: poor elderly/widow/severe disability. Ask Panchayat/Block; keep age, BPL/ration, Aadhaar, bank, certificate.",
+        "hi": "NSAP: गरीब बुजुर्ग/विधवा/दिव्यांग. पंचायत/ब्लॉक से पूछें; उम्र, BPL/राशन, आधार, बैंक, प्रमाण रखें।",
+        "ta": "NSAP: ஏழை முதியோர்/விதவை/மாற்றுத்திறன். பஞ்சாயத்து/பிளாக்; வயது, BPL/ரேஷன், ஆதார், வங்கி."
+      }
+    }
+  ]
+}

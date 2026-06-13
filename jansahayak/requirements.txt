@@ -1,0 +1,2 @@
+# JanSahayak runs on the Python standard library.
+# Tested with Python 3.13.

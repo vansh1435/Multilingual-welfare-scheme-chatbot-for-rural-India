@@ -1,0 +1,277 @@
+:root {
+  color-scheme: light;
+  --ink: #172026;
+  --muted: #5b6872;
+  --line: #d9e0dc;
+  --paper: #fbfcfb;
+  --panel: #ffffff;
+  --green: #19684a;
+  --green-dark: #0e4934;
+  --blue: #245a9a;
+  --amber: #b4661b;
+  --rose: #9d3d54;
+  --shadow: 0 10px 28px rgba(23, 32, 38, .09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Noto Sans, Nirmala UI, Latha, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  min-height: 40px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+button:hover,
+button:focus-visible {
+  border-color: var(--green);
+  outline: 2px solid rgba(25, 104, 74, .14);
+}
+
+.shell {
+  width: min(1180px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 18px;
+  padding: 18px;
+}
+
+.chat-panel,
+.side-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.chat-panel {
+  min-height: calc(100vh - 36px);
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+}
+
+.topbar,
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.25rem;
+  letter-spacing: 0;
+}
+
+h2 {
+  font-size: .95rem;
+  letter-spacing: 0;
+}
+
+#status,
+#payload-size {
+  color: var(--muted);
+  font-size: .84rem;
+  margin-top: 4px;
+}
+
+.ghost {
+  padding: 0 12px;
+}
+
+.messages {
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.bubble {
+  max-width: min(720px, 94%);
+  margin: 0 0 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  white-space: pre-wrap;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.bot {
+  background: #f3f8f5;
+  border-left: 4px solid var(--green);
+}
+
+.user {
+  margin-left: auto;
+  background: #f6f8fc;
+  border-right: 4px solid var(--blue);
+}
+
+.quick-langs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px 0;
+}
+
+.quick-langs button {
+  padding: 0 12px;
+}
+
+.composer {
+  display: grid;
+  grid-template-columns: 1fr 92px;
+  gap: 10px;
+  padding: 16px;
+}
+
+.composer input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.composer button,
+.download {
+  background: var(--green);
+  color: white;
+  border-color: var(--green-dark);
+  padding: 0 14px;
+}
+
+.side-panel {
+  align-self: stretch;
+  min-height: calc(100vh - 36px);
+  display: flex;
+  flex-direction: column;
+}
+
+.recommendations {
+  padding: 14px;
+  display: grid;
+  gap: 10px;
+  overflow-y: auto;
+}
+
+.scheme {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--amber);
+  border-radius: 8px;
+  padding: 12px;
+  display: grid;
+  gap: 8px;
+}
+
+.scheme:nth-child(2n) {
+  border-left-color: var(--rose);
+}
+
+.scheme h3 {
+  margin: 0;
+  font-size: .96rem;
+  letter-spacing: 0;
+}
+
+.scheme p,
+.scheme a {
+  font-size: .84rem;
+  line-height: 1.38;
+}
+
+.scheme a {
+  color: var(--blue);
+  overflow-wrap: anywhere;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.download {
+  min-height: 36px;
+  width: fit-content;
+}
+
+.channel-box {
+  border-top: 1px solid var(--line);
+  padding: 14px;
+  display: grid;
+  gap: 8px;
+}
+
+code {
+  display: block;
+  padding: 8px;
+  border: 1px solid var(--line);
+  background: #f7f3ee;
+  border-radius: 6px;
+  font-size: .8rem;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 860px) {
+  .shell {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .chat-panel,
+  .side-panel {
+    min-height: auto;
+  }
+
+  .messages {
+    min-height: 48vh;
+  }
+}
+
+@media (max-width: 460px) {
+  .topbar,
+  .panel-head {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .composer {
+    grid-template-columns: 1fr;
+  }
+
+  .composer button {
+    width: 100%;
+  }
+}

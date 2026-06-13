@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JanSahayak</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="chat-panel" aria-label="JanSahayak chat">
+      <header class="topbar">
+        <div>
+          <h1>JanSahayak</h1>
+          <p id="status">Offline-grounded welfare assistant</p>
+        </div>
+        <button id="restart" class="ghost" type="button">Restart</button>
+      </header>
+
+      <div id="messages" class="messages" aria-live="polite"></div>
+
+      <div class="quick-langs" aria-label="Language shortcuts">
+        <button type="button" data-quick="1">हिंदी</button>
+        <button type="button" data-quick="2">தமிழ்</button>
+        <button type="button" data-quick="3">English</button>
+      </div>
+
+      <form id="chat-form" class="composer">
+        <input id="message" name="message" autocomplete="off" placeholder="Type your reply" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <aside class="side-panel" aria-label="Recommendations">
+      <div class="panel-head">
+        <h2>Shortlist</h2>
+        <span id="payload-size">0 B</span>
+      </div>
+      <div id="recommendations" class="recommendations"></div>
+      <div class="channel-box">
+        <h2>Channel endpoints</h2>
+        <code>POST /webhook/whatsapp</code>
+        <code>POST /webhook/sms</code>
+        <code>POST /webhook/ivr</code>
+      </div>
+    </aside>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
